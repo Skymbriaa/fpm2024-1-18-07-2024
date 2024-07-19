@@ -1,9 +1,10 @@
-import { combineReducers } from "@reduxjs/toolkit";
-import countReducer from './countSlice'
+import { combineReducers } from '@reduxjs/toolkit';
+import countReducer from './countSlice';
 
-const rootReducer = combineReducers ({
-    count: countReducer,
-})
+const rootReducer = combineReducers({
+  count: countReducer,
+  // users: usersReducer,
+});
 
 
-export default rootReducer
+export default rootReducer;
